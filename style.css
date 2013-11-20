@@ -1,0 +1,135 @@
+/* layout */
+
+#wrap {
+	width: 100%;
+	min-width: 320px;
+	margin: auto;
+}
+
+.sidebar {
+	float: left;
+	width: 25%;
+	color: white;
+	background-color: #18213D;
+	height: 100%;
+	position: fixed;	
+}
+
+
+.main {
+	float: right;
+	width: 75%;
+	
+}
+
+#content {
+	padding: 10px;
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;	
+}
+
+/* global text styles */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Droid Sans", sans-serif;
+}
+
+p, footer {
+	font-family: "Droid Serif", serif;
+}
+
+/*sidebar styling */
+
+header {
+	margin-top: 50%;
+	text-align: right;
+	margin-right: 2em;	
+}
+
+#brand {
+	text-transform: uppercase;
+	font-size: 2.5em;
+	font-family: "Averia Serif Libre", serif;
+}
+
+nav {
+	font-family: "Droid Sans", sans-serif;
+}
+
+nav ul {
+	
+}
+
+nav li {
+	padding: 5px;
+	color: #DF2D4F;
+	list-style: none;
+}
+
+nav li a {
+	color: white;
+	text-decoration: none;
+	color: #DF2D4F;
+}
+
+nav li a:hover {
+	border-bottom: 1px solid white;
+}
+
+img {
+	max-width: 100%;
+}
+
+#self-photo {
+	margin-left: 10px;
+}
+
+/* main content styling */
+
+.title {
+	color: #284089;
+	margin-bottom: 3px;
+}
+
+.date {
+	font-size: .85em;
+	color: #5F6A89;
+	margin-bottom: 0px;
+}
+
+.post-content {
+	margin-top: 3px;
+	font-family: "Droid Serif", serif;
+	color: #3C4256;
+	line-height: 1.5em;
+}
+
+#content a {
+	text-decoration: none;
+	color: #4D7021;
+}
+
+#content a:hover {
+	border-bottom: 1px solid #DF2D4F;
+}
+
+#content a:visited {
+	color: ##61892F;
+}
+
+article {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #DF2D4F;
+}
+
+
+
+footer {
+	text-align: center;
+	font-size: .75em;
+
+	
+}
